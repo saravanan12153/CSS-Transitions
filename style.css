@@ -14,9 +14,14 @@
 	padding: 1px;
 	color: #000;
 	border: 2px solid #000;
-	margin-top: 20px;
+	margin-top: 10px;
 	line-height: 30px;
 	text-align: center;
 	background-color: #ccc;
-
+}
+.box-dark {
+	border:3px solid #DDD;
+	height:100px;
+	width:100px;
+	margin:0 auto;
 }
