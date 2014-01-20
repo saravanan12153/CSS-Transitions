@@ -128,7 +128,23 @@
 .box-round:hover {
 	border-radius: 80px;
 	
-}/*--- 9 ---*/
+}
+
+/*--- 9 ---*/
+.img-swap {
+	border:3px solid #DDD;
+	height:100px;
+	width:100px;
+	margin:0 auto;
+	-webkit-transition: background-image 1s ease-in-out;
+	background-image: url('imgs/nature1.jpg');
+}
+	
+.img-swap:hover {
+	background-image: url('imgs/nature2.jpg')
+}
+
+/*--- 10 ---*/
 .img-swap {
 	border:3px solid #DDD;
 	height:100px;
