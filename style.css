@@ -1,11 +1,7 @@
-.pink-box {
-	height: 100px;
-	width: 100px;
-	color: pink;
-}
+.
 .container {
 	height:200px;
-	border-bottom: 2px dashed #AAA;
+	border-bottom: 2px solid #AAA;
 }
 .container span {
 	height:20px;
@@ -13,4 +9,5 @@
 	color:#fff;
 	background-color: #CCC;
 	font-style: Arial;
+	font-size: 14px;
 }
