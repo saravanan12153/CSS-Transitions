@@ -85,11 +85,6 @@
 }
 
 /*--- 6 ---*/
-.wrapper {
-	height:110px;
-	width:110px;
-	margin: 0 auto;
-}
 .box-grow-rt {
 	border:3px solid #000;
 	height:100px;
@@ -122,7 +117,6 @@
 	border-radius: 0px;
 	-webkit-transition: border-radius;
 	-webkit-transition: duration: 2s;
-	-webkit-transition-delay: 1s;
 	-webkit-transition-timing-function: linear;
 }
 .box-round:hover {
@@ -157,18 +151,18 @@
 
 }
 .caption {
-	bottom: 0px;
+	bottom: -20px;
 	width:96px;
 	height:15px;
 	padding: 2px;
 	position: absolute;
 	background-color: rgba(200, 200, 200, 0.5);
-	-webkit-transition: All 2s ease;
+	-webkit-transition: All .5s ease;
 	
 }
-.caption:hover {
+.show-caption:hover .caption {
 	position: absolute;
-	-webkit-transform: translateY(200px);
+	-webkit-transform: translateY(-20px);
 }
 
 /*---- 11 ----*/
@@ -179,41 +173,54 @@
 	margin:0 auto;
 	opacity: 1;
 	background-image: url('imgs/nature1.jpg');
-	-webkit-transition: opacity 1s ease;
+	-webkit-transition: All 1s ease;
 }
 .box-fade:hover {
 	opacity: 0;
+	-webkit-transform: translate(100px);
+
 }
 
 /*---  12 ---*/
-.text {
-	position: absolute;
-	z-index: -5;
-	background-color: #ccc;
-}
-.box-reveal {
-	border:3px solid #000;
+
+.box-raise {
+	border:3px solid #fff;
 	height:100px;
 	width:100px;
 	margin:0 auto;
-	opacity: 1;
+	box-shadow: 0px 0px 0px #000;
 	background-image: url('imgs/nature1.jpg');
 	position: relative;
-	-webkit-transition: opacity 1s ease;
+	-webkit-transition: All 1s ease;
 }
-.box-fade:hover {
-	opacity: 0;
+.box-raise:hover {
+	-webkit-transform: scale(1.1);
+	border: 3px solid #FFF;
+	box-shadow: 2px 2px 5px 0px #000;
 }
 
 /*--- 13 ---*/
-.box-mslide-fade {
+.butn-show-price {
 	border:3px solid #000;
 	height:100px;
 	width:100px;
 	margin:0 auto;
 	-webkit-transition: All 1s ease;
 }
-.box-move-rt:hover {
+.butn-show-price:hover {
 	-webkit-transform: translate(200px);
 	
 }
+/*--- 14---*/
+
+
+
+/*--- 15---*/
+
+
+
+
+
+
+
+
