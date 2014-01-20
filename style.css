@@ -80,7 +80,7 @@
 	-webkit-transition: All 1s ease;
 }
 .box-grow:hover {
-	transform: scale(1.5);
+	-webkit-transform: scale(1.5);
 	
 }
 
@@ -201,15 +201,38 @@
 
 /*--- 13 ---*/
 .butn-show-price {
-	border:3px solid #000;
+	border:1px solid #aaa;
 	height:100px;
-	width:100px;
+	width:300px;
+	background-color: #9ccc75;
 	margin:0 auto;
+	border-radius: 5px;
+	position:relative;
 	-webkit-transition: All 1s ease;
 }
-.butn-show-price:hover {
-	-webkit-transform: translate(200px);
+img {
+	position: absolute;
+	z-index: 50;
+	top: 20px;
+	left: 20px;
+}
+.butn-show-price:hover img{
+	-webkit-transform: scale(0);
+	/*opacity: 0;*/
 	
+}
+.butn-show-price span {
+	font-size: 20px;
+	position: absolute;
+	top:30px;
+	left:30px;
+	color:#ccc;
+	text-shadow: 0px 1px 1px #000;
+}
+.text-fill {
+	width:150px;
+	margin-left:100px;
+	margin-top:10px;
 }
 /*--- 14---*/
 
