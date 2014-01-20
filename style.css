@@ -204,3 +204,16 @@
 .box-fade:hover {
 	opacity: 0;
 }
+
+/*--- 13 ---*/
+.box-mslide-fade {
+	border:3px solid #DDD;
+	height:100px;
+	width:100px;
+	margin:0 auto;
+	-webkit-transition: All 1s ease;
+}
+.box-move-rt:hover {
+	-webkit-transform: translate(200px);
+	
+}
