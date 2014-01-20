@@ -87,7 +87,6 @@
 .wrapper {
 	height:110px;
 	width:110px;
-	border: 1px solid red;
 	margin: 0 auto;
 }
 .box-grow-rt {
@@ -152,19 +151,55 @@
 	margin:0 auto;
 	background-image: url('imgs/nature1.jpg');
 	text-align: center;
+	overflow: hidden;
 	position: relative;
 
 }
 .caption {
-	visibility: hidden;
 	bottom: 0px;
 	width:96px;
+	height:15px;
 	padding: 2px;
 	position: absolute;
-	background-color: rgba(200, 200, 200, 0.8);
-	-webkit-transition: All 1s ease;
-
+	background-color: rgba(200, 200, 200, 0.5);
+	-webkit-transition: All 2s ease;
+	
 }
 .caption:hover {
-	visibility: visible;
+	position: absolute;
+	-webkit-transform: translateY(200px);
+}
+
+/*---- 11 ----*/
+.box-fade {
+	border:3px solid #DDD;
+	height:100px;
+	width:100px;
+	margin:0 auto;
+	opacity: 1;
+	background-image: url('imgs/nature1.jpg');
+	-webkit-transition: opacity 1s ease;
+}
+.box-fade:hover {
+	opacity: 0;
+}
+
+/*---  12 ---*/
+.text {
+	position: absolute;
+	z-index: -5;
+	background-color: #ccc;
+}
+.box-reveal {
+	border:3px solid #DDD;
+	height:100px;
+	width:100px;
+	margin:0 auto;
+	opacity: 1;
+	background-image: url('imgs/nature1.jpg');
+	position: relative;
+	-webkit-transition: opacity 1s ease;
+}
+.box-fade:hover {
+	opacity: 0;
 }
