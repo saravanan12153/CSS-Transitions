@@ -19,6 +19,8 @@
 	text-align: center;
 	background-color: #ccc;
 }
+
+/*--- 1 ---*/
 .box-dark {
 	border:3px solid #DDD;
 	height:100px;
@@ -29,6 +31,8 @@
 .box-dark:hover {
 	background-color: #000;
 }
+
+/*--- 2 ---*/
 .box-spin {
 	border:3px solid #DDD;
 	height:100px;
@@ -36,10 +40,13 @@
 	margin:0 auto;
 	-webkit-transition: All 1s ease;
 }
+
 .box-spin:hover {
 	-webkit-transform: rotate(360deg); 
 	/*negative for counterclock*/
 }
+
+/*--- 3 ---*/
 .box-stretch-wide {
 	border:3px solid #DDD;
 	height:100px;
@@ -49,8 +56,9 @@
 }
 .box-stretch-wide:hover {
 	width: 300px;
-	
 }
+
+/*--- 4 ---*/
 .box-border {
 	border:3px solid #DDD;
 	height:100px;
@@ -60,9 +68,9 @@
 }
 .box-border:hover {
 	border: 5px solid red;
-	
 }
 
+/*--- 5 ---*/
 .box-grow {
 	border:3px solid #DDD;
 	height:100px;
@@ -74,6 +82,8 @@
 	transform: scale(1.5);
 	
 }
+
+/*--- 6 ---*/
 .wrapper {
 	height:110px;
 	width:110px;
@@ -88,6 +98,18 @@
 	-webkit-transition: All 1s ease;
 }
 .box-grow-rt:hover {
-	transform: scale(1.5);
+	-webkit-transform: scale(1.5);	
+}
+
+/*--- 7 ---*/
+.box-move-rt {
+	border:3px solid #DDD;
+	height:100px;
+	width:100px;
+	margin:0 auto;
+	-webkit-transition: All 1s ease;
+}
+.box-move-rt:hover {
+	-webkit-transform: translate(200px);
 	
 }
