@@ -113,3 +113,26 @@
 	-webkit-transform: translate(200px);
 	
 }
+/*--- 8 ---*/
+.box-round {
+	border:3px solid #DDD;
+	height:100px;
+	width:100px;
+	margin:0 auto;
+	-webkit-transition: All 1s ease;
+}
+.box-move-rt:hover {
+	-webkit-transform: translate(200px);
+	
+}/*--- 9 ---*/
+.img-swap {
+	border:3px solid #DDD;
+	height:100px;
+	width:100px;
+	margin:0 auto;
+	background-image: url ('imgs/nature1.jpg');
+	-webkit-transition: background-image 1s ease-in-out;
+}
+.img-swap:hover {
+	background-image: url ('imgs/nature2.jpg')
+}
