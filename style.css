@@ -26,6 +26,7 @@
 	height:100px;
 	width:100px;
 	margin:0 auto;
+	color: #eee;
 	-webkit-transition: All 1s ease;
 }
 .box-dark:hover {
