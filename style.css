@@ -24,4 +24,30 @@
 	height:100px;
 	width:100px;
 	margin:0 auto;
+	-webkit-transition: All 1s ease;
+}
+.box-dark:hover {
+	background-color: #000;
+}
+.box-spin {
+	border:3px solid #DDD;
+	height:100px;
+	width:100px;
+	margin:0 auto;
+	-webkit-transition: All 1s ease;
+}
+.box-spin:hover {
+	-webkit-transform: rotate(360deg); 
+	/*negative for counterclock*/
+}
+.box-stretch-wide {
+	border:3px solid #DDD;
+	height:100px;
+	width:100px;
+	margin:0 auto;
+	-webkit-transition: All 1s ease;
+}
+.box-stretch-wide:hover {
+	width: 300px;
+	
 }
