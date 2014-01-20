@@ -145,15 +145,26 @@
 }
 
 /*--- 10 ---*/
-.img-swap {
+.show-caption {
 	border:3px solid #DDD;
 	height:100px;
 	width:100px;
 	margin:0 auto;
-	-webkit-transition: background-image 1s ease-in-out;
 	background-image: url('imgs/nature1.jpg');
+	text-align: center;
+	position: relative;
+
 }
-	
-.img-swap:hover {
-	background-image: url('imgs/nature2.jpg')
+.caption {
+	visibility: hidden;
+	bottom: 0px;
+	width:96px;
+	padding: 2px;
+	position: absolute;
+	background-color: rgba(200, 200, 200, 0.8);
+	-webkit-transition: All 1s ease;
+
+}
+.caption:hover {
+	visibility: visible;
 }
