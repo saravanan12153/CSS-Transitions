@@ -51,3 +51,26 @@
 	width: 300px;
 	
 }
+.box-border {
+	border:3px solid #DDD;
+	height:100px;
+	width:100px;
+	margin:0 auto;
+	-webkit-transition: All 1s ease;
+}
+.box-border:hover {
+	border: 5px solid red;
+	
+}
+
+.box-grow {
+	border:3px solid #DDD;
+	height:100px;
+	width:100px;
+	margin:0 auto;
+	-webkit-transition: All 1s ease;
+}
+.box-grow:hover {
+	transform: scale(1.5);
+	
+}
