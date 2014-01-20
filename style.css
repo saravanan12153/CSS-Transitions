@@ -119,10 +119,14 @@
 	height:100px;
 	width:100px;
 	margin:0 auto;
-	-webkit-transition: All 1s ease;
+	border-radius: 0px;
+	-webkit-transition: border-radius;
+	-webkit-transition: duration: 2s;
+	-webkit-transition-delay: 1s;
+	-webkit-transition-timing-function: linear;
 }
-.box-move-rt:hover {
-	-webkit-transform: translate(200px);
+.box-round:hover {
+	border-radius: 80px;
 	
 }/*--- 9 ---*/
 .img-swap {
@@ -130,9 +134,10 @@
 	height:100px;
 	width:100px;
 	margin:0 auto;
-	background-image: url ('imgs/nature1.jpg');
 	-webkit-transition: background-image 1s ease-in-out;
+	background-image: url('imgs/nature1.jpg');
 }
+	
 .img-swap:hover {
-	background-image: url ('imgs/nature2.jpg')
+	background-image: url('imgs/nature2.jpg')
 }
