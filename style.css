@@ -93,7 +93,8 @@
 	-webkit-transition: All 1s ease;
 }
 .box-grow-rt:hover {
-	-webkit-transform: scale(1.5);	
+	-webkit-transform: scale(1.5);
+	background-color: red;	
 }
 
 /*--- 7 ---*/
@@ -115,9 +116,7 @@
 	width:100px;
 	margin:0 auto;
 	border-radius: 0px;
-	-webkit-transition: border-radius;
-	-webkit-transition: duration: 2s;
-	-webkit-transition-timing-function: linear;
+	-webkit-transition: border-radius 2s ease;
 }
 .box-round:hover {
 	border-radius: 80px;
@@ -156,7 +155,7 @@
 	height:15px;
 	padding: 2px;
 	position: absolute;
-	background-color: rgba(200, 200, 200, 0.5);
+	background-color: rgba(255, 255, 255, 0.8);
 	-webkit-transition: All .5s ease;
 	
 }
@@ -208,16 +207,19 @@
 	margin:0 auto;
 	border-radius: 5px;
 	position:relative;
-	-webkit-transition: All 1s ease;
+	/*-webkit-transition: All 1s ease;*/
 }
 img {
 	position: absolute;
 	z-index: 50;
 	top: 20px;
 	left: 20px;
+	-webkit-transition: All 1s ease;
+
 }
 .butn-show-price:hover img{
 	-webkit-transform: scale(0);
+	opacity:0;
 	/*opacity: 0;*/
 	
 }
@@ -235,12 +237,23 @@ img {
 	margin-top:10px;
 }
 /*--- 14---*/
-
-
+.bigger-txt {
+	height:200px;
+	width:400px;
+	margin:0 auto;
+	font-size:10px;
+	-webkit-transition: font-size .5s ease;
+}
+.bigger-txt:hover {
+	font-size: 16px;
+}
 
 /*--- 15---*/
 
-
+.amin {
+	height: 100px;
+	width: 100px;
+}
 
 
 
