@@ -249,10 +249,19 @@ img {
 }
 
 /*--- 15---*/
-
-.amin {
+@-webkit-keyframes animColors{
+	0% { background-color: red;}
+	25% { background-color: green;}
+	50% { background-color: yellow;}
+	75% { background-color: orange;}
+	100% { background-color: blue;}
+}
+.anim {
 	height: 100px;
 	width: 100px;
+	background-color: red;
+	margin: 0 auto;
+	-webkit-animation: animColors 2.5s infinite alternate;
 }
 
 
